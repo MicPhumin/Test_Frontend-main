@@ -1,0 +1,101 @@
+.screenbox{
+    padding: 0px 20px 0px 20px;
+
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    background: #ffa200 ;
+    border-color: #ffa200 ;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+    background: #6eda78 ;
+    border-color: #6eda78 ;
+}
+
+.badgecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.badge{
+    z-index: 5;
+    background-color: #6eda78;
+    padding: 2px 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 135px;
+    color: white;
+}
+
+.left{
+    border-top: 50px solid transparent; 
+	border-right: 100px solid gray; 
+	border-bottom: 50px solid transparent; 
+}
+.right{
+    border-top: 50px solid transparent;
+	border-left: 100px solid gray;
+	border-bottom: 50px solid transparent;
+}
+.top{
+    border-left: 50px solid transparent; 
+	border-right: 50px solid transparent; 
+	border-bottom: 100px solid gray; 
+}
+.bottom{
+    border-left: 50px solid transparent; 
+	border-right: 50px solid transparent; 
+	border-top: 100px solid gray; 
+}
+
+.shapebutton{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.positionbutton{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: gray;
+}
+.oval{
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.trapezoid {
+	border-bottom: 80px solid gray;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 50px;
+}
+.rectangle {
+    height: 80px;
+    width: 140px;
+    background-color: gray;
+}
+.parallelogram {
+	width: 150px;
+	height: 80px;
+	transform: skew(20deg);
+	background: gray;
+}

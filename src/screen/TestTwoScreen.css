@@ -1,0 +1,18 @@
+.formcontainer{
+    display: flex;
+    justify-content: center; 
+    
+}
+.formbox{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 40px ;
+}
+.redfont{
+    color: red;
+}
+.ant-form-item{
+margin-bottom: 0px;
+}

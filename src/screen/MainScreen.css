@@ -1,0 +1,14 @@
+.mainbox {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbutton{
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
